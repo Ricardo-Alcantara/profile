@@ -1,0 +1,91 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# AWS credentials
+.aws/credentials
+.aws/config
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash log files
+crash.log
+
+# Terraform variable files
+*.tfvars
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# AWS SAM build artifacts
+.aws-sam/build/
+
+# AWS CloudFormation template package artifacts
+packaged-template.yaml
+
+# AWS Elastic Beanstalk config files
+.elasticbeanstalk/*.cfg.yml
+.elasticbeanstalk/*.global.yml
+
+# AWS CodeBuild artifacts
+codebuild/output/
+codebuild/buildspec.yml
+
+# AWS Lambda build artifacts
+lambda_build/
+
+# AWS Amplify artifacts
+amplify/#current-cloud-backend
+amplify/.config/local-*
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+amplify/backend/.temp
+amplify/#amplify-ui
+
+# AWS CDK context files
+cdk.context.json
+cdk.out/
+
+# AWS CLI cache
+~/.aws/cli/cache
+
+# AWS SAM CLI
+.sam-templates/
